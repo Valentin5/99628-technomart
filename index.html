@@ -5,9 +5,9 @@
 	<title>HTML Academy: Техномарт</title>
 </head>
 <body>
-	<div class="container">
-		<header class="main-header">
-			<nav class="main-navigation">
+	<header class="main-header">
+		<nav class="main-navigation">
+			<div class="container">
 				<div class="index-logo"><img src="#" alt="ТЕХНОМАРТ"></div>
 				<ul>
 					<li class="search"><a href="#">Поиск</a></li>
@@ -15,7 +15,9 @@
 					<li><a href="#">Корзина:0</a></li>
 					<li class="order"><a href="#">Оформить заказ</a></li>
 				</ul>
-			</nav>
+			</div>
+		</nav>
+		<div class="container">
 			<div class="header-block">
 				<div class="header-block-info">
 					<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>  	
@@ -41,9 +43,11 @@
 					<li class="list-items">Доставка</li>
 					<li class="list-items">Контакты</li>
 				</ul>
-			</nav>  
-		</header>
-		<main class="main-container">
+			</nav> 
+		</div> 
+	</header>
+	<main class="main-container">
+		<div class="container">
 			<div class="services">
 				<div class="services-items">
 					<div class="services-all">
@@ -73,7 +77,7 @@
 					</div>	
 				</div>
 				<div class="services-item">
-					<span class="services-item-text1">ПЕРФОРАТОРЫ</span>
+					<h2 class="services-item-text1">ПЕРФОРАТОРЫ</h2>
 					<span class="services-item-text2">Настоящие мужские игрушки</span>
 					<div class="services-item-left"></div>
 					<div class="services-item-right"></div>
@@ -131,20 +135,23 @@
 				<span class="popular-manufacturers">ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</span>
 				<a href="#" class="red-link">ВСЕ ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ</a>    	
 			</div>
-			<section><img src="#" alt="Производитель"></section>
-			<section><img src="#" alt="Производитель"></section>
-			<section><img src="#" alt="Производитель"></section>
-			<section><img src="#" alt="Производитель"></section>
-			<section><img src="#" alt="Производитель"></section>
-			<section><img src="#" alt="Производитель"></section>
-			<section><img src="#" alt="Производитель"></section>
-			<section><img src="#" alt="Производитель"></section>		
-		</main>
-		<main class="main-center">
+			<div class="Manufacturer">
+				<section><img src="#" alt="Производитель"></section>
+				<section><img src="#" alt="Производитель"></section>
+				<section><img src="#" alt="Производитель"></section>
+				<section><img src="#" alt="Производитель"></section>
+				<section><img src="#" alt="Производитель"></section>
+				<section><img src="#" alt="Производитель"></section>
+				<section><img src="#" alt="Производитель"></section>
+				<section><img src="#" alt="Производитель"></section>
+			</div>	
+		</div>	
+	</main>
+	<main class="main-center">
+		<div class="container">
 			<div class="services">
 				<h2>Сервисы</h2>
-				<p>Хороший интернет-магазин отличаеться от плохого только ценами!
-					Мы сnараемся изо всех сил,что бы сделать ваши покупки приятными.
+				<p>Хороший интернет-магазин отличаеться от плохого только ценами! Мы сnараемся изо всех сил,что бы сделать ваши покупки приятными.
 				</p>
 			</div>
 			<div>
@@ -156,25 +163,19 @@
 			</div>
 			<div class="delivery-content">
 				<h2>Доставка</h2>
-				<p>Мы с удовольствием доставим ваш товарпрямо к вашему подъездусовершенно бесплатно!
-					Ведь мы неплохо заробатываем,<br>
-					поднимаем его на ваш на этаж!
-				</p>	
+				<p>Мы с удовольствием доставим ваш товарпрямо к вашему подъездусовершенно бесплатно! Ведь мы неплохо заробатываем,<br>поднимаем его на ваш на этаж!</p>	
 			</div>
 			<div class="delivery-img">
 				<img src="#" alt="Камазик=)">	
-			</div>	
-		</main>
-		<main class="main-bottom">
+			</div>
+		</div>
+	</main>
+	<main class="main-bottom">
+		<div class="container">
 			<div class="company">
 				<h2>КОМПАНИЯ «ТЕХНОМАРТ»</h2>
-				<p>Настоящий мужской шоппинг начинаеться сдесь! 
-					Огромный выбор товаров для ремонта и строительсва не оставит 
-					равнодушными любителей экономить на гастарбайтерах.
-				</p>
-				<p>Мы можем доставитьваш товар в самые отдаленные точки России!
-					Техномарт работает со ногими транспортрыми компаниями:
-				</p>
+				<p>Настоящий мужской шоппинг начинаеться сдесь! Огромный выбор товаров для ремонта и строительсва не оставит равнодушными любителей экономить на гастарбайтерах.</p>
+				<p>Мы можем доставитьваш товар в самые отдаленные точки России! Техномарт работает со ногими транспортрыми компаниями:</p>
 				<ul class="company-list">
 					<li>Деловые линии</li>
 					<li>Автотрейдинг</li>
@@ -187,8 +188,43 @@
 				<p>Вы можете забрать товары сами,<br>заехав в нашь офис:</p>
 				<img src="#" alt="Картра">	
 				<a href="#" class="red-link">ЗАБЛУДИЛИСЬ?НАПИШИТЕ НАМ!</a>
-			</div>	
-		</main>
-	</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="index-logo"><img src="#" alt="ТЕХНОМАРТ"></div>
+				<ul>
+					<li>Компания</li>
+					<li>Новости</li>
+					<li>Каталог</li>
+					<li>Доставка</li>
+					<li>Контакты</li>
+				</ul>
+				<p>г. Санкт-Петербург, ул. Б. Конюшенна, д. 19/8<br>+7 (812) 555-05-55</p>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<section class="footer-contacts">
+					<p>© 2010-2016 Компания «Техномарт»<br>Все права защищены!</p>
+				</section>
+				<section class="footer-social">
+					<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+					<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+					<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+				</section>
+				<section class="footer-feedback">
+					<p>Обратная связь:</p>
+					<a href="#">mail@htmlacademy.ru</a>
+				</section>
+				<section class="developed">
+					<p>Разработано-</p>
+					<a href="#">htmlacademy.ru</a>
+				</section>	
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
