@@ -1,0 +1,125 @@
+body {
+	background: green url("img/technomart-index.jpg") no-repeat;
+	background-size: 1200px auto;
+}
+.container {	
+	width:940px;
+	margin:0px auto;
+	
+}
+.main-header {
+	background-color:#f1f5f7;
+	height:320px;
+	margin-bottom:60px;
+}
+.main-header-color {
+	background-color:#293449;
+}
+ul.list li {
+	display:inline-block;
+}
+.header-block-1 {
+	width:200px;
+	float:left;
+	margin-right:50px;
+	margin-left:50px;
+}
+.header-block-1:last-child {
+	float:right;
+}
+.header-block::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.breadcrumbs a {
+	color: #f5f6f6;
+}
+
+.breadcrumbs {
+    position: relative;
+    height:60px;
+    background-color:#32425c;
+}
+.breadcrumbs ul  {
+	background-color:#32425c;
+	padding:0;
+	margin:0;
+	float: left;
+	width: 100%;
+	list-style: none;
+	height:60px;
+}
+.breadcrumbs li {
+	text-align: center;
+	font-family:Cuprum;
+	font-size: 17px;
+	line-height:17px;
+	float:left;
+	margin-left: 20px;
+	vertical-align:middle;
+}
+.breadcrumbs ul li a {
+    display:block;
+    text-decoration:none;
+    padding:4px 10px;
+}
+
+.baket {
+	background-color:#f6b22d;
+	margin-right:20px;
+}
+.instruments {
+	background-color:#4aafde;
+	margin-right:20px;
+}
+.equipment {
+	background-color:#cc79d1;
+}
+.services-items {
+	display: inline-block;
+	width:300px;
+	font-size: 14px;
+	height:123px;
+	vertical-align: top;
+	margin-bottom:20px;
+}
+.discounts {
+	background-color:#85d179;
+}
+.delivery {
+	background-color:#f6b22d;
+}
+.men1 {
+	width:620px; 
+	height:266px;
+	background: #c7b39b url("img/men.jpg");
+	font-size: 14px;
+	display:inline-block;
+	margin-right:20px;
+}
+.services {
+	font-size: 0px;
+}
+
+/*font*/
+p {
+	color: black;
+}
+h1 {
+	font-family:Cuprum;
+	font-size: 24px;
+	line-height:24px;
+	color: #ffffff;
+	background-color: #ee3643;
+}
+a {
+	text-decoration:none;
+}
+.header-block-1 h2 {
+	font-family:Cuprum;
+	font-size: 16px;
+	line-height:23px;
+	color: #ee3643;
+	font-style:italic;
+}
