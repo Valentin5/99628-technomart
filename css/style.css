@@ -37,9 +37,9 @@ ul.list li {
 }
 
 .breadcrumbs {
-    position: relative;
-    height:60px;
-    background-color:#32425c;
+	position: relative;
+	height:60px;
+	background-color:#32425c;
 }
 .breadcrumbs ul  {
 	background-color:#32425c;
@@ -60,9 +60,9 @@ ul.list li {
 	vertical-align:middle;
 }
 .breadcrumbs ul li a {
-    display:block;
-    text-decoration:none;
-    padding:4px 10px;
+	display:block;
+	text-decoration:none;
+	padding:4px 10px;
 }
 
 .baket {
